@@ -1,0 +1,49 @@
+body {font-family: "Bitter", "serif";
+background-color: LightSlateGray;
+margin:0px;
+padding:0px;
+}
+
+.content {margin:0 auto;
+  background-color: LightSteelBlue;
+  text-align: center;
+  max-width: width:800px;
+  border:3px solid white;
+  padding:20px;
+  box-shadow:3px 3px 25px darkgray;
+  border-radius:25px;
+  position:relative;
+  top:150px;
+}
+/*class symbol is a dot*/
+/*pseudo-selector used to hover. Not just for hovering, but can be used for other things.*/
+/*descendant selector allows you to target a child under the parent, tags inside other tags*/
+/*attribute selector*/
+
+h2 {color:white}
+
+.navbar {background-color: dimgray;
+  height: 90px;
+  width: 100%;
+  position:fixed;
+  z-index: 10000;
+
+}
+.navbar span {position: relative;
+top:20px
+}
+
+.navbar div:hover {background-color: lightgray;
+font-size:15px;
+height:90px;
+width:100px;}
+
+.button {display: inline-block;
+  position: relative;
+  top: 25px;
+  margin:0px 30px;
+  transition: background-color .5s, font-size .5s;
+}
+
+.content input [type="radio"] {height:20px;
+width:30px}

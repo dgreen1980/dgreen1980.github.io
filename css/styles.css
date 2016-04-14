@@ -1,0 +1,12 @@
+body {
+  background-color:#33ccff;
+}
+
+p {
+  color:white;
+  font-size:150%;
+}
+
+p.headers {
+  border:2px solid white;
+}
