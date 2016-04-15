@@ -1,0 +1,6 @@
+.custom-jumbotron {background-image: url("../images/van.jpg");
+background-size: cover;
+background-position: 0px -150px;
+height:400px}
+
+.jumbotron {}
