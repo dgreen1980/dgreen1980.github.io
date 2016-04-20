@@ -1,0 +1,18 @@
+body {background-color: #FF9933;
+margin:0px;
+padding:0px;}
+
+.custom-jumbotron hr {border-color: #FF9933}
+
+h1 {text-align: center;
+}
+
+.custom-jumbotron {height:400px;
+  background-image:url("../images/coding.jpg");
+  background-size:cover;
+  background-position:center;
+background-repeat: no-repeat;}
+
+.text-center {color: #FF9933}
+
+.navbox {height:50px}

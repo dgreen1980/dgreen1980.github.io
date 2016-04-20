@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div class="result"></div>
+    <div class="icecream-result"></div>
+    <div class="guess-result"></div>
+
+  <script>
+  //var feeling=prompt("how are you feeling?");
+  //var resultDiv=document.querySelector(".result");
+
+  //if(feeling === "sad"){resultDiv.textContent="I'm sorry you are sad."};
+
+  //var icecreamFlavor=prompt("Do you prefer vanilla or chocolate?");
+  //var icecreamDiv=document.querySelector(".icecream-result");
+
+  //if(icecreamFlavor === "chocolate"){icecreamDiv.textContent="Get out."}
+  //else if (icecreamFlavor === "vanilla"){
+  //icecreamDiv.textContent="Vanilla is awesome."
+  //};
+  //Don't forget to add console.log
+
+  var guess=prompt("Guess what number I'm thinking of?");
+  var guessDiv=document.querySelector(".guess-result");
+
+  if(guess === "7"){guessDiv.textContent="Your guess is correct!"}
+  else if(guess != "7"){guessDiv.textContent= guess + " is incorrect. The secret number was 7."}
+
+  var correctPassword= "timeclock";
+  var password=prompt("Please enter your password.");
+
+
+  </script>
+  </body>
+</html>

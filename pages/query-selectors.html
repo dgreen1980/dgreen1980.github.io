@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div class="greeting"></div>
+      <span class="hometown"></span>
+
+  <script>
+   var username= prompt ("What is your name?");
+   var greeting=document.querySelector (".greeting");
+   greeting.textContent = "Welcome to my page " + username;
+   var hometown= prompt ("What is your hometown?");
+   var hometownSpan= document.querySelector (".hometown");
+   hometownSpan.textContent= "It's nice to have a user from " + hometown;
+  </script>
+  </body>
+</html>
